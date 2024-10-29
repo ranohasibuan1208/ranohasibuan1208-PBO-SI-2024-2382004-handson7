@@ -10,18 +10,19 @@ public class Mobil {
         this.warna = warna;
         this.merek = merek;
         this.kecepatanMaks = kecepatanMaks;
-
     }
-    public void TampilkanInfo(){
+
+    public void tampilkanInfo() { // Changed from TampilkanInfo to tampilkanInfo
         System.out.println("Mobil Merek: " + merek);
         System.out.println("Warna: " + warna);
         System.out.println("Kecepatan Maks: " + kecepatanMaks);
     }
 
-    public void berjalan(){
-        System.out.println("Mobil " + merek + "Sedang Berjalan");
+    public void berjalan() {
+        System.out.println("Mobil " + merek + " Sedang Berjalan"); // Added space before "Sedang"
     }
+
     public void berhenti() {
-        System.out.println("Mobil " + merek + "Sedang Berheti");
+        System.out.println("Mobil " + merek + " Sedang Berhenti"); // Corrected "Berheti" to "Berhenti" and added space
     }
 }

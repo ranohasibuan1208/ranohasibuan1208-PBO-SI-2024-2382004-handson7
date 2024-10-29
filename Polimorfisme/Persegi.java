@@ -3,17 +3,19 @@ package Polimorfisme;
 public class Persegi extends BangunDatar {
     private double sisi;
 
-    public persegi(final String sisi) {
+    public Persegi(double sisi) {
         this.sisi = sisi;
     }
 
     @Override
     public double luas() {
-        return sisi * sisi;
+        System.out.println("Menghitung Luas Persegi");
+        return this.sisi * this.sisi;
     }
 
     @Override
     public double keliling() {
-        return 4 * sisi;
+        System.out.println("Menghitung Keliling Persegi");
+        return 4 * this.sisi;
     }
 }
